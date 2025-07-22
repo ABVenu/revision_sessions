@@ -13,7 +13,6 @@
 * Variable Naming Best Practices
 * Global variables and implicit globals (missing earlier ✅ now included)
 
-**Fully covered** — No gaps
 
 ---
 
@@ -26,7 +25,7 @@
 * `typeof` quirks (`typeof null === 'object'`)
 * Copy by value vs copy by reference
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -38,7 +37,7 @@
 * Implicit Coercion (with `+`, `-`, `==`, `!=`)
 * Weird cases: `[] + {}`, `[] == false`, `'5' - 1`
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -50,7 +49,7 @@
 * Use in conditions
 * Double negation `!!` to convert to boolean
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -62,7 +61,7 @@
 * `??` Nullish coalescing operator
 * Practical use cases: default values, conditionals
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -75,7 +74,6 @@
 * Ternary Operator
 * Nested and compound conditions
 
-**Fully covered** — No gaps
 
 ---
 
@@ -88,7 +86,7 @@
 * `for...in` vs `for...of` (key vs value iteration)
 * Looping over arrays, objects, strings
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -104,7 +102,7 @@
 * Named vs anonymous functions
 * Callback functions
 
-**Fully covered** — No gaps
+
 
 ---
 
@@ -125,7 +123,6 @@
 * Flattening arrays: `flat()`
 * Spread operator in arrays
 
-**Fully covered** — No gaps
 
 ---
 
@@ -142,7 +139,6 @@
 * Freezing, sealing objects (❗was missing earlier ✅ now included)
 * `in` operator
 
-✅ **Now Fully Covered**
 
 ---
 
@@ -155,7 +151,6 @@
 * Temporal Dead Zone (TDZ)
 * Illegal shadowing (❗was missing ✅ now included)
 
-✅ **Now Fully Covered**
 
 ---
 
@@ -168,7 +163,7 @@
 * Shadowing (especially illegal shadowing with `let` and `var`)
 * Scope Chain
 
-✅ **Now Fully Covered**
+
 
 ---
 
@@ -181,7 +176,6 @@
 * Closure inside loops with `var` and `setTimeout`
 * Use in factories/memoization
 
-✅ **Fully covered**
 
 ---
 
@@ -197,7 +191,7 @@
 * In classes
 * `call`, `apply`, `bind`
 
-✅ **Fully covered**
+
 
 ---
 
@@ -210,7 +204,7 @@
 * Call stack behavior
 * Scope chaining
 
-✅ **Fully covered**
+
 
 ---
 
@@ -224,7 +218,7 @@
 * Error handling in async code
 * Real-world fetch examples
 
-✅ **Fully covered**
+
 
 ---
 
@@ -240,7 +234,7 @@
 * Execution order: `setTimeout`, `Promise.resolve`, `queueMicrotask`
 * Real example walkthrough
 
-✅ **Fully covered**
+
 
 ---
 
@@ -254,7 +248,7 @@
 * Creating/removing elements
 * DOM traversal
 
-✅ **Covered if DOM basics needed**
+
 
 ---
 
@@ -273,7 +267,7 @@
 * Optional chaining `?.`
 * Nullish coalescing `??`
 
-✅ **Fully covered**
+
 
 ---
 
@@ -289,7 +283,7 @@
 * `constructor`, `extends`, `super`
 * Static methods
 
-✅ **Fully covered**
+
 
 ---
 
@@ -302,7 +296,7 @@
 * Async errors with `try/catch`
 * Re-throwing errors
 
-✅ **Fully covered**
+
 
 ---
 
@@ -319,4 +313,3 @@
 * Deep Copying: `structuredClone()`, `JSON.parse`, lodash
 * Garbage Collection (basic)
 
-✅ **Now Fully Covered**

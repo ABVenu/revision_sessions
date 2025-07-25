@@ -1,5 +1,4 @@
-
-## 🔸 **Concept 12: Hoisting**
+## 🔸 **Hoisting**
 
 Covers **variable hoisting**, **function hoisting**, **TDZ**, **output predictions**, and **code-based questions**. Aimed at fresher to mid-level roles.
 
@@ -66,7 +65,7 @@ function greet() {
 
 ```js
 hello();
-var hello = function() {
+var hello = function () {
   console.log("Hi");
 };
 ```
@@ -79,7 +78,7 @@ var hello = function() {
 
 ```js
 sayHi();
-let sayHi = function() {
+let sayHi = function () {
   console.log("Hi");
 };
 ```
@@ -326,4 +325,3 @@ f(); // Error in strict mode
 ```
 
 ---
-
